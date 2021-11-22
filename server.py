@@ -150,7 +150,6 @@ def main():
         sock_maori.bind((HOST, PORT_MAORI))
         sock_ger.bind((HOST, PORT_GER))
         print("Device name: " + socket.gethostname())
-        print("IP address of this device: " + socket.gethostbyname(socket.gethostname()+'.local'))
         print(f"Assigned port for English: {PORT_ENG}")
         print(f"Assigned port for Te reo Maori: {PORT_MAORI}")
         print(f"Assigned port for German: {PORT_GER}\n")

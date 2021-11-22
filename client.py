@@ -39,8 +39,8 @@ def args_checker():
             return sys.argv[1], (address[0], int(sys.argv[3]))
     else:
         message += "To request a date-time packet, you need exactly 3 arguments: [] [] [] \n\n"
-        message += 'Request type: "date" or time\n\n'
-        message += 'IP address(e.g. "000.00.00.000") or server name(e.g. "datetime.example.nz")\n\n'
+        message += 'Request type: "date" or "time"\n\n'
+        message += 'IP address(e.g. "000.00.00.000") or server name (e.g. "datetime.example.nz")\n\n'
         message += 'Port number: [1024, 64000]\n\n'
         print(message)
         sys.exit('Invalid arguments')
