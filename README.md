@@ -3,8 +3,7 @@ A server returns time when a client asks for it using socket for communication.
 This server supports three languages: English, Maori, German.
 
 ## Prerequisite
-Please make sure [Python3](https://www.python.org/downloads/) is installed.
-Also, please make sure network connection is stable. 
+Please make sure [Python3](https://www.python.org/downloads/) is installed and network connection is stable. 
 
 ## Run
 **Please set up server first before sending request from client.**
